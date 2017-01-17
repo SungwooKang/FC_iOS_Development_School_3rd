@@ -16,5 +16,10 @@
 @property id hairLength;
 
 
+- (id)talk;
+- (id)eat;
+- (id)run;
+
+
 
 @end

@@ -26,6 +26,7 @@ int main(int argc, const char * argv[]) {
         me.gender = @"male";
         me.phoneNumber = @"010-9889-3490";
         
+        
         Person *you = [Person new];
         you.name = @"youngmin";
         
@@ -39,6 +40,11 @@ int main(int argc, const char * argv[]) {
         
         NSLog(@"Hi, my name is %@, and I'm %@.\nMy phonenumber is %@.", me.name, me.gender, me.phoneNumber);
         NSLog(@"Aren't you %@? Nice to meet you.", you.name);
+        
+        [me talk];
+        [me run];
+        [me eat];
+    
     }
     return 0;
 }
