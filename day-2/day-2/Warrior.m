@@ -10,4 +10,9 @@
 
 @implementation Warrior
 
+- (id)physicalAttack {
+    NSLog(@"물리 공격하기");
+    return nil;
+}
+
 @end

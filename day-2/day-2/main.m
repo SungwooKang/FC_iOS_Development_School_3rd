@@ -17,6 +17,7 @@ int main(int argc, const char * argv[]) {
         
         Warrior *barbarian = [[Warrior alloc] init];
         barbarian.health = @100;
+        [barbarian physicalAttack];
         
         Warrior *monster = [Warrior new];
         monster.mana = @150;
@@ -26,12 +27,24 @@ int main(int argc, const char * argv[]) {
         me.gender = @"male";
         me.phoneNumber = @"010-9889-3490";
         
+        [me talk];
+        [me run];
+        [me eat];
         
         Person *you = [Person new];
         you.name = @"youngmin";
         
+        [you talk];
+        [you eat];
+        
+        
+        
+        
         Wizard *harrypotter = [Wizard new];
         harrypotter.magicalPower = @1000;
+        
+        [harrypotter magicalAttack];
+        
         
         Wizard *weasley = [Wizard new];
         weasley.magicalPower = @80;
@@ -41,9 +54,7 @@ int main(int argc, const char * argv[]) {
         NSLog(@"Hi, my name is %@, and I'm %@.\nMy phonenumber is %@.", me.name, me.gender, me.phoneNumber);
         NSLog(@"Aren't you %@? Nice to meet you.", you.name);
         
-        [me talk];
-        [me run];
-        [me eat];
+
     
     }
     return 0;

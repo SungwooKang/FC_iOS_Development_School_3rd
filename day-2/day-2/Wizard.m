@@ -10,4 +10,9 @@
 
 @implementation Wizard
 
+- (id)magicalAttack {
+    NSLog(@"마법 공격하기");
+    return nil;
+}
+
 @end

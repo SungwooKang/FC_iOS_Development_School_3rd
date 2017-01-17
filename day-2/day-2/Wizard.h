@@ -16,4 +16,7 @@
 @property id magicalPower;
 @property id weapon;
 
+
+- (id)magicalAttack;
+
 @end

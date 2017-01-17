@@ -11,17 +11,17 @@
 @implementation Person
 
 - (id)talk {
-    NSLog(@"말을 합니다");
+    NSLog(@"말해라");
     return nil;
 }
 
 - (id)eat {
-    NSLog(@"밥을 먹습니다");
+    NSLog(@"밥 먹어라");
     return nil;
 }
 
 - (id)run {
-    NSLog(@"달립니다");
+    NSLog(@"달려라");
     return nil;
 }
 
