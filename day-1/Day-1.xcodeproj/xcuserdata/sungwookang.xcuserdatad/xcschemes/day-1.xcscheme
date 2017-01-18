@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B075A4C51E2DB2BB0049DBAE"
-               BuildableName = "day-2"
-               BlueprintName = "day-2"
-               ReferencedContainer = "container:day-2.xcodeproj">
+               BlueprintIdentifier = "B0165F8C1E2C78C9001498D8"
+               BuildableName = "day-1.app"
+               BlueprintName = "day-1"
+               ReferencedContainer = "container:Day-1.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B075A4C51E2DB2BB0049DBAE"
-            BuildableName = "day-2"
-            BlueprintName = "day-2"
-            ReferencedContainer = "container:day-2.xcodeproj">
+            BlueprintIdentifier = "B0165F8C1E2C78C9001498D8"
+            BuildableName = "day-1.app"
+            BlueprintName = "day-1"
+            ReferencedContainer = "container:Day-1.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B075A4C51E2DB2BB0049DBAE"
-            BuildableName = "day-2"
-            BlueprintName = "day-2"
-            ReferencedContainer = "container:day-2.xcodeproj">
+            BlueprintIdentifier = "B0165F8C1E2C78C9001498D8"
+            BuildableName = "day-1.app"
+            BlueprintName = "day-1"
+            ReferencedContainer = "container:Day-1.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B075A4C51E2DB2BB0049DBAE"
-            BuildableName = "day-2"
-            BlueprintName = "day-2"
-            ReferencedContainer = "container:day-2.xcodeproj">
+            BlueprintIdentifier = "B0165F8C1E2C78C9001498D8"
+            BuildableName = "day-1.app"
+            BlueprintName = "day-1"
+            ReferencedContainer = "container:Day-1.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
