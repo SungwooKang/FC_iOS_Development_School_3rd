@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 @class Elf;
+
 @interface Human : NSObject
 
 
@@ -20,5 +21,6 @@
 
 
 - (id)attackTo:(Elf *)elf;
+- (void)methodWithNum:(NSInteger)num1 param1:(NSInteger)param1;
 
 @end

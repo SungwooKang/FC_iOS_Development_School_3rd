@@ -17,6 +17,8 @@
     NSInteger humanAfterHP = human.hp - elfDamage;
     self.mp = self.mp - 20;
     human.hp = humanAfterHP;
+    
+    
     NSLog(@"\n%@의 HP는 %lu이(가) 되었고, %@의 MP는 %lu이(가) 남았습니다.", human.name, human.hp, self.name, self.mp);
     
     return nil;
