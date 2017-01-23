@@ -35,7 +35,7 @@ int main(int argc, const char * argv[]) {
         s4.h = 7;
         
         Shapes *s5 = [[Shapes alloc] init];
-        s5.name = @"Ttrapezoid";
+        s5.name = @"Trapezoid";
         s5.a = 8;
         s5.b = 5;
         s5.h = 3;
@@ -64,20 +64,17 @@ int main(int argc, const char * argv[]) {
         s10.r = 4;
         s10.h = 7;
         
-        [cal calculateArea:s1];
-        [cal calculatePerimeter:s1];
-        [cal calculateArea:s2];
-        [cal calculatePerimeter:s2];
-        [cal calculateArea:s3];
-        [cal calculateCircumference:s3];
-        [cal calculateArea:s4];
-        [cal calculateArea:s5];
-        [cal calculateVolume:s6];
-        [cal calculateVolume:s7];
-        [cal calculateVolume:s8];
-        [cal calculateVolume:s9];
-        [cal calculateVolume:s10];
-        
+        [cal calculate:s1];
+        [cal calculate:s2];
+        [cal calculate:s3];
+        [cal calculate:s4];
+        [cal calculate:s5];
+        [cal calculate:s6];
+        [cal calculate:s7];
+        [cal calculate:s8];
+        [cal calculate:s9];
+        [cal calculate:s10];
+
         
         
     }

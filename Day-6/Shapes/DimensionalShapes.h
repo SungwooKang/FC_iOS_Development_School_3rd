@@ -17,10 +17,7 @@
 @property CGFloat resultVolume;
 
 
-- (void)calculateArea:(Shapes *)area;
-- (void)calculatePerimeter:(Shapes *)perimeter;
-- (void)calculateCircumference:(Shapes *)circumference;
-- (void)calculateVolume:(Shapes *)volume;
+- (void)calculate:(Shapes *)calculateShapes;
 
 
 
